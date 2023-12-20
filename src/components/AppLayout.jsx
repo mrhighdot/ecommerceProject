@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const AppLayout = () => {
-  return (
-    <div>AppLayout</div>
-  )
-}
+  return <main>AppLayout</main>;
+};
 
-export default AppLayout
+export default AppLayout;

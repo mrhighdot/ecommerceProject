@@ -4,9 +4,11 @@ import { Outlet } from "react-router-dom";
 
 const AppLayout = () => {
   return (
-    <main className="w-full h-screen">
-      <Navigation />
-      <Outlet />
+    <main className="w-full h-screen  ">
+      <section className="px-12">
+        <Navigation />
+        <Outlet />
+      </section>
       <Footer />
     </main>
   );

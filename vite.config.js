@@ -12,6 +12,7 @@ export default defineConfig({
       constants: "/src/constants",
       features: "/src/features",
       routes: "/src/routes",
+      context: "/src/context",
     },
   },
 });

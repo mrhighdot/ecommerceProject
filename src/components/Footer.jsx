@@ -35,7 +35,7 @@ const Footer = () => {
       </section>
       {/* Links */}
       <section className="flex flex-col justify-between">
-        <span>Quick Links</span>
+        <span className="font-bold">Quick Links</span>
         {pageLinks.map((link) => {
           return (
             <Link key={link.id} to={link.path} className="text-sm">

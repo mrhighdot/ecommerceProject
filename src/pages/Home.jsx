@@ -9,7 +9,7 @@ const Home = () => {
     <main className="mb-12 h-full">
       <h1 className="text-6xl mb-12">Shop</h1>
       {/* Shop */}
-      <section className="grid gap-5 grid-flow-col sm:grid-col-2 lg:grid-col-3">
+      <section className="grid grid-cols-5 grid-rows-auto gap-5">
         {/* {products.map((product) => {
           return (
             <section key={product.siteId}>
@@ -21,12 +21,12 @@ const Home = () => {
         })} */}
         {products.map((item) => {
           return (
-            <span key={item.siteId}>
-              <div className="h-100 mb-4">
+            <span key={item.siteId} className="">
+              <div className="h-[23rem] mb-4 flex items-center justify-center">
                 <img
                   src={item.imageUrl}
                   alt=""
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover hover:scale-[103%] transition ease-out 3000s"
                 />
               </div>
               <span className="text-lg text-gray-400">{item.name}</span>

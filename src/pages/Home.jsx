@@ -9,7 +9,7 @@ const Home = () => {
     <main className="mb-12 h-full">
       <h1 className="text-6xl mb-12">Shop</h1>
       {/* Shop */}
-      <section className="grid grid-cols-5 grid-rows-auto gap-5">
+      <section className="grid sm:grid-cols-5 grid-rows-auto gap-5">
         {/* {products.map((product) => {
           return (
             <section key={product.siteId}>
@@ -22,7 +22,7 @@ const Home = () => {
         {products.map((item) => {
           return (
             <span key={item.siteId} className="">
-              <div className="h-[23rem] mb-4 flex items-center justify-center">
+              <div className="h-[23rem] w-[18rem] mb-4 flex items-center justify-center">
                 <img
                   src={item.imageUrl}
                   alt=""

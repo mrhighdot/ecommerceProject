@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const [email, setEmail] = useState("");
   return (
-    <footer className="grid md:grid-cols-2 lg:grid-cols-3 bg-gray-200 w-full py-14 px-12">
+    <footer className="grid md:grid-cols-2 lg:grid-cols-3 bg-gray-200 w-full py-20 px-12">
       {/* Newsletter */}
       <section>
         <h3 className="text-3xl mb-4">Let's get in touch</h3>
